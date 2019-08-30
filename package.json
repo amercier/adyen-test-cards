@@ -1,0 +1,37 @@
+{
+  "name": "adyen-test-cards",
+  "version": "0.0.0",
+  "description": "NPM module providing Adyen test card numbers in a machine-readable format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adyen",
+    "debit",
+    "credit",
+    "card",
+    "test",
+    "testing",
+    "american",
+    "express",
+    "bancontact",
+    "cartes",
+    "bancaires",
+    "unionpay",
+    "dankort",
+    "diners",
+    "discover",
+    "elo",
+    "hipercard",
+    "jcb",
+    "maestro",
+    "mastercard",
+    "uatp",
+    "visa",
+    "electron",
+    "v pay"
+  ],
+  "author": "Alex Mercier <pro.alexandre.mercier@gmail.com> (http://amercier.com)",
+  "license": "ISC"
+}
