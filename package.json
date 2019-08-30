@@ -1,6 +1,6 @@
 {
   "name": "adyen-test-cards",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "NPM module providing Adyen test card numbers in a machine-readable format.",
   "main": "dist/index.js",
   "types": "dist/types.d.ts",
