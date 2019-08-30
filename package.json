@@ -2,8 +2,14 @@
   "name": "adyen-test-cards",
   "version": "0.0.0",
   "description": "NPM module providing Adyen test card numbers in a machine-readable format.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -33,5 +39,9 @@
     "v pay"
   ],
   "author": "Alex Mercier <pro.alexandre.mercier@gmail.com> (http://amercier.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
 }
