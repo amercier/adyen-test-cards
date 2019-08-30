@@ -687,4 +687,5 @@ const cards: Card[] = [
   },
 ];
 
+export { ExpiryDate, Provider, CountryCode, Card };
 export default cards;
